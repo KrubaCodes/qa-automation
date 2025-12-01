@@ -1,0 +1,16 @@
+{
+  "name": "playwright-ai-framework",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "generate:test": "ts-node src/utils/aiGenerator.ts --"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0",
+    "minimist": "^1.2.8"
+  }
+}
